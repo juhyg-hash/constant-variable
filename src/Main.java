@@ -2,20 +2,21 @@ public class Main {
     public static void main(String[] args) {
         int a = 10, b = 3;
 
-        int sum = a +b;
-        System.out.println("sum = " + sum);
+        a += 5; // a = a +5;
+        System.out.println(a);
 
-        int difference =  a - b;
-        System.out.println("difference = " + difference);
+        b -= 2;
+        System.out.println(b);
 
-        int product = a * b;
-        System.out.println("product = " + product);
+        b *= 2;
+        System.out.println(b);
 
-        int quotient = a / b;
-        System.out.println("quotient = " + quotient);
+        b /= 2;
+        System.out.println(b);
 
-        int remainder = a % b;
-        System.out.println("remainder = " + remainder);
+        b %= 2;
+        System.out.println(b);
+
 
     }
 }
